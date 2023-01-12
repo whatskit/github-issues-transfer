@@ -14,7 +14,7 @@ See the README.md file for more information on how to get started.
 
 const puppeteer = require('puppeteer')
 const settings = require('./settings.json')
-const { Octokit } = require('@octokit/core')
+const { Octokit } = require('@octokit/rest')
 const fs = require('fs').promises
 
 const octokit = new Octokit({ auth: settings.githubToken })
