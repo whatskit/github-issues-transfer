@@ -1,0 +1,30 @@
+{
+  "version": "0.1.0",
+  "name": "@whatskit/github-issues-transfer",
+  "description": "Command line utility to transfer GitHub issues",
+  "author": "Billgo <hi@billgo.me>",
+  "homepage": "https://github.com/whatskit/github-issues-transfer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whatskit/github-issues-transfer.git"
+  },
+  "license": "Apache 2",
+  "bin": "index.js",
+  "dependencies": {
+    "@octokit/rest": "^19.0.5",
+    "prompt-password": "^1.2.0",
+    "puppeteer": "^19.5.2",
+    "request": "^2.88.0",
+    "yargs": "^17.6.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/whatskit/github-issues-transfer/issues"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}

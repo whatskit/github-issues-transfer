@@ -1,0 +1,4 @@
+settings.json
+issuemapping.json
+*.log
+/node_modules

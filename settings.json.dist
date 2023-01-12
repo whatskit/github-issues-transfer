@@ -1,0 +1,21 @@
+{
+  "repos": {
+    "source": {
+      "owner": "YOUR_SOURCE_USER_ORG",
+      "repoName": "YOUR_SOURCE_REPO_NAME"
+    },
+    "dest": {
+      "owner": "YOUR_DEST_USER_ORG",
+      "repoName": "YOUR_DEST_REPO_NAME"
+    }
+  },
+  "searchLabels": [
+    "bug",
+    "documentation"
+  ],
+  "auth": {
+    "username": "YOUR_GITHUB_USERNAME",
+    "password": "YOUR_GITHUB_PASSWORD"
+  },
+  "issueMappingFile": "issuemapping.json"
+}
