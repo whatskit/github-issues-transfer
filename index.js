@@ -124,7 +124,7 @@ async function getRepoInformation(owner, repoName) {
 
 async function main() {
   const browser = await puppeteer.launch({
-    headless: true
+    headless: false
   })
   const page = await browser.newPage()
 
