@@ -11,6 +11,7 @@
   "license": "Apache 2",
   "bin": "index.js",
   "dependencies": {
+    "@octokit/core": "^4.1.0",
     "@octokit/rest": "^19.0.5",
     "prompt-password": "^1.2.0",
     "puppeteer": "^19.5.2",
